@@ -1,0 +1,395 @@
+header-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.brand span {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #007bff;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1em;
+}
+
+.search-bar select {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions .icon {
+    margin-left: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.user-actions .icon:hover {
+    color: #007bff;
+}
+nav-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links span {
+    margin-right: 20px;
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+}
+
+.nav-links span:hover {
+    color: #007bff;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+}
+
+.nav-options span {
+    margin-left: 20px;
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+}
+
+.nav-options span img {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.nav-options span:hover {
+    color: #007bff;
+}
+menu-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #222;
+    color: #bbb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.container a:hover {
+    color: gray;
+}
+sidebar-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: black;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group h3 {
+    margin: 0 0 10px;
+    font-size: 1.1em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.filter-group ul li {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.filter-group ul li input[type="checkbox"],
+.filter-group ul li input[type="radio"] {
+    margin-right: 10px;
+    
+}
+
+.filter-group ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.filter-group ul li a:hover {
+    text-decoration: underline;
+}
+
+.price-range {
+    margin-bottom: 10px;
+}
+
+.price-range input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.range-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+filter-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container span {
+    font-size: 0.9em;
+    color: black;
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+}
+
+.filter-options label {
+    margin-right: 15px;
+    font-size: 0.9em;
+}
+
+.filter-options input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.filter-options select {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+.filter-options button {
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #333;
+}
+
+.filter-options button:hover {
+    color: #007bff;
+}
+.product-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.product-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.product-item img {
+    width: 100px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.product-details h3 {
+    margin: 0 0 5px;
+    font-size: 1.1em;
+}
+
+.product-details .price {
+    margin: 0 0 5px;
+    font-size: 1em;
+}
+
+.product-details .price del {
+    color: #888;
+    margin-left: 10px;
+}
+
+.product-details .rating {
+    margin: 0 0 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-details .rating span {
+    margin-left: 10px;
+    color: #28a745;
+}
+
+.product-details p {
+    margin: 0 0 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.product-details a:hover {
+    text-decoration: underline;
+}
+
+.product-item .heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.product-item .heart:hover {
+    color: #0056b3;
+}

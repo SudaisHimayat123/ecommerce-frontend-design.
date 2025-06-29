@@ -158,9 +158,6 @@ main {
 }
 
 .deals-offers {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
     background-color: #fff;
     border: 1px solid #dfe1e5;
     margin-top: 20px;
